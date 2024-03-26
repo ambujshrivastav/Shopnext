@@ -12,7 +12,7 @@ export default function About(){
         They’re expanding their fashion category by adding new 
         brands regularly. This platform covers all your needs 
         and offers a variety of gift cards for gifting, along
-         with top shopnext product available on their main website.
+         with top shopnext product available on their main website .
         </p>
         </div>
     )
