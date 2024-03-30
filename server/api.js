@@ -2,7 +2,7 @@ var express=require("express");
 var cors=require("cors");
 var mongoClient = require('mongodb-legacy').MongoClient;
 
-var connectionString="mongodb://127.0.0.1:27017";
+var connectionString="mongodb://127.0.0.1:27017"||"https://shopnext-x8zh.onrender.com";
 
 var app=express();
 app.use(cors({origin:["http://localhost:3000","https://shopnext1.netlify.app"]}));
@@ -136,5 +136,5 @@ app.delete("/deleteuser/:UserId",(req,res)=>{
     )
 });
 
-app.listen(4000||"https://shopnext-x8zh.onrender.com");
+app.listen(4000);
 console.log("server started");
