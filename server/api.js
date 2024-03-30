@@ -2,10 +2,10 @@ var express=require("express");
 var cors=require("cors");
 var mongoClient = require('mongodb-legacy').MongoClient;
 
-var connectionString="mongodb://127.0.0.1:27017"||"https://shopnext-x8zh.onrender.com";
+var connectionString="mongodb://127.0.0.1:27017";
 
 var app=express();
-app.use(cors({origin:["http://localhost:3000","https://660837e2ae4d0e0008de8b37--shopnext1.netlify.app"]}));
+app.use(cors());
 app.use(express.urlencoded({
     extended:true
 }));
