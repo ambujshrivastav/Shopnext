@@ -5,7 +5,7 @@ var mongoClient = require('mongodb-legacy').MongoClient;
 var connectionString="mongodb://127.0.0.1:27017";
 
 var app=express();
-app.use(cors());
+app.use(cors({origin:["http://localhost:3000","https://shopnext1.netlify.app"]}));
 app.use(express.urlencoded({
     extended:true
 }));
