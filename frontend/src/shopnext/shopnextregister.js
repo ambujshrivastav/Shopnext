@@ -41,12 +41,12 @@ export default function ShopnextUserRegister(){
  
     return(
         <div>
-        <div className="mt-5 text-dark registers" style={{fontSize:"1.7rem"}}>
+        <div className="text-dark registers mt-5" style={{fontSize:"1.7rem"}}>
             <div style={{height:"100%",width:"100%" }}>
             <div className="bi bi-person-fill fw-bolder">User Registration</div>
             <div className="container-fluid">
             <form onSubmit={formik.handleSubmit}  >
-               <dl style={{margin:"0%"}}>
+               <dl >
                     <dt>User id</dt>
                     <dd><input type="text" {...formik.getFieldProps("UserId")}></input></dd>
                     <dd className="text-danger" >{formik.errors.UserId}</dd>
@@ -70,7 +70,7 @@ export default function ShopnextUserRegister(){
                   <button  className="btn btn-primary mt-2 mb-5 p-2 fw-bold fs-5" style={{width:"16em"}} disabled={(formik.isValid)?false:true} >Register</button>
                   </form>
                 
-                    <br/><br/>
+                    <br/>
         </div>
         </div>
         </div>

@@ -252,7 +252,7 @@ html{font-size: 55%;}
               }
             .scrollproduct{
               height: 420px;
-              overflow: scroll;
+              overflow:scroll;
               padding: 1em 0;
             }
             .homeheader{
@@ -399,6 +399,7 @@ font-size: 1em;
 } 
 .registers{
   padding: 5vh 30vw;
+  
 }
 #login{
 background-color: black;
