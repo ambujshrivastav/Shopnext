@@ -136,5 +136,5 @@ app.delete("/deleteuser/:UserId",(req,res)=>{
     )
 });
 
-app.listen(4000||"https://shopnext-x8zh.onrender.com");
+app.listen(4000);
 console.log("server started");
