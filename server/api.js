@@ -1,6 +1,9 @@
 var express=require("express");
 var cors=require("cors");
 var mongoClient = require('mongodb-legacy').MongoClient;
+var port = process.env.PORT || 4000;
+
+
 
 var connectionString="mongodb://127.0.0.1:27017";
 
@@ -136,5 +139,5 @@ app.delete("/deleteuser/:UserId",(req,res)=>{
     )
 });
 
-app.listen(4000);
+app.listen(port);
 console.log("server started");
