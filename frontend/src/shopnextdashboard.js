@@ -21,7 +21,7 @@ export default function ShopnextDashboard(){
     }
 
     function Loadcategory(){
-        axios.get("http://localhost:4000/getcategories")
+        axios.get("https://shopnext-x8zh.onrender.com/getcategories")
         .then(response=>{
         
             setcategory(response.data);

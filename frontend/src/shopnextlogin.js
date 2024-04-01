@@ -25,7 +25,7 @@ export default function ShopnextUserlogin(){
     
  
     
-    const  formik=useFormik({
+    const formik=useFormik({
         initialValues:{
             UserId:'',
             Password:''
@@ -50,7 +50,7 @@ export default function ShopnextUserlogin(){
     })
 
     useEffect(()=>{
-      axios.get("http://localhost:4000/getusers")
+      axios.get("https://shopnext-x8zh.onrender.com/getusers")
       .then(response=>{
         setuser(response.data);
       });

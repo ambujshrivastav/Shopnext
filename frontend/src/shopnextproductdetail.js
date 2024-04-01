@@ -28,7 +28,7 @@ export function Productdetail(){
      }
 
     useEffect(()=>{
-       axios.get(`http://localhost:4000/getproducts/${params.id}`)
+       axios.get(`https://shopnext-x8zh.onrender.com/getproducts/${params.id}`)
        .then(response=>{
         setproduct(response.data);
        })

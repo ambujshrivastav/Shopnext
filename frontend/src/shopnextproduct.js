@@ -15,7 +15,7 @@ export function Shopnextproducts(props){
     
     useEffect(()=>{                
         setproductcategory(param.category);
-        axios.get("http://localhost:4000/getproducts")
+        axios.get("https://shopnext-x8zh.onrender.com/getproducts")
         .then(response=>{
             setproduct(response.data);
         })

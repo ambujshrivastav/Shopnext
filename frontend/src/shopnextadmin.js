@@ -6,23 +6,23 @@ export default function ShopnextAdmin(){
     let params=useParams();
 
     function deleteuser(id){
-        axios.delete(`http://localhost:4000/deleteuser/${id}`);
+        axios.delete(`https://shopnext-x8zh.onrender.com/deleteuser/${id}`);
         window.location.reload(false);
         };
 
     function updateuser(id){
-        axios.put(`http://localhost:4000/updateuser/${id}`);
+        axios.put(`https://shopnext-x8zh.onrender.com/updateuser/${id}`);
         window.location.reload(false);
         };
 
         function updateusers(id){
-            axios.put(`http://localhost:4000/updateusers/${id}`);
+            axios.put(`https://shopnext-x8zh.onrender.com/updateusers/${id}`);
             window.location.reload(false);
             };
             
 
     useEffect(()=>{
-        axios.get("http://localhost:4000/getusers")
+        axios.get("https://shopnext-x8zh.onrender.com/getusers")
         .then(response=>{
             setuser(response.data);
         })

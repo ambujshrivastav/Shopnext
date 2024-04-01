@@ -30,7 +30,7 @@ export default function ShopnextUserRegister(){
                 }),
 
             onSubmit:values=>{
-                axios.post("http://localhost:4000/registeruser",values);
+                axios.post("https://shopnext-x8zh.onrender.com/registeruser",values);
                 alert("Register successfully");
                 navigate("/login")
             }
