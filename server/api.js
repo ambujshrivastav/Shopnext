@@ -1,14 +1,14 @@
 var express=require("express");
 var cors=require("cors");
 var mongoClient = require('mongodb-legacy').MongoClient;
-var port = process.env.PORT || 4000;
+var port =4000;
 
 
 
 var connectionString="mongodb+srv://ambuj:Password@database.fp8k0cj.mongodb.net/";
 
 var app=express();
-app.use(cors({origin:[`http://localhost:${port}`,`https://shopnext-x8zh.onrender.com`]}));
+app.use(cors());
 app.use(express.urlencoded({
     extended:true
 }));
