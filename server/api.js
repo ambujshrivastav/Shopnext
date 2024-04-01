@@ -5,7 +5,7 @@ var port = process.env.PORT || 4000;
 
 
 
-var connectionString="mongodb://127.0.0.1:27017";
+var connectionString="mongodb+srv://ambuj:Password@database.fp8k0cj.mongodb.net/";
 
 var app=express();
 app.use(cors({origin:[`http://localhost:${port}`,`https://shopnext-x8zh.onrender.com`]}));
