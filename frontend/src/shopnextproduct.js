@@ -30,12 +30,12 @@ export function Shopnextproducts(props){
            <span className="mt-2 me-2"><Cart/></span>
              <Link to="/dashboard" className="btn btn-primary bi bi-arrow-left rounded text-center fs-5 fw-bolder mt-3 me-2 backarrow" >Back</Link></div>
              </div>  
-          <div className="row ">
+          <div className="row">
           <span className="col-7 scrollproduct">
             <div className="d-flex flex-wrap productcard">
                 {
                     product.filter(item=>item.category==productcategory).map(product=>
-                        <div className="card m-2 p-2 bg-body-secondary cardi" key={product.id}>
+                        <div className="card bg-body-secondary cardi" key={product.id}>
                             <img src={product.image} className="card-img-top" height="100"/>   
                             <div><Link style={{textDecoration:"none", color:"black"}} to={""+product.id}>{product.title}</Link></div>
                             </div>)

@@ -59,8 +59,10 @@ transform: scale(0.9);
   }
 
   .cardi{
+    padding: 0.27em;
+    margin: 0.4em;
     width: 6em;
-    font-size: 0.99em;
+    font-size: 1em;
    }
    
    .productdetails{
@@ -100,6 +102,8 @@ transform: scale(0.9);
 
        .about{ width:80%;
         font-size:1.5rem}
+
+      
 
 @media  (max-width: 1200px) {
   html{
