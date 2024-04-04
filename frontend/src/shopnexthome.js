@@ -12,7 +12,7 @@ export default function Shopnexthome(){
             <Link to="/login" className="bi bi-person-badge-fill fs-3">Existing User</Link>
             </div>
             </div>
-            <Carousel style={{marginTop:"5vh",width:"99vw",marginLeft:"0.5vw"}} data-bs-theme="light">
+            <Carousel style={{marginTop:"5vh",width:"99.6vw",marginLeft:"0.2vw"}} data-bs-theme="light">
       <Carousel.Item>
         <img 
           className="carouselh d-block vw-100"
