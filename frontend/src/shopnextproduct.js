@@ -30,7 +30,7 @@ export function Shopnextproducts(props){
            <span className="mt-2 me-2"><Cart/></span>
              <Link to="/dashboard" className="btn btn-primary bi bi-arrow-left rounded text-center fs-5 fw-bolder mt-3 me-2 backarrow" >Back</Link></div>
              </div>  
-          <div className="row">
+          <div className="row m-0">
           <span className="col-7 scrollproduct">
             <div className="d-flex flex-wrap productcard">
                 {
