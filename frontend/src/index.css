@@ -180,7 +180,7 @@ transform: scale(0.9);
 
   .registerbutton{
     width:  67vw;
-    height: 3em;
+    height: 4em;
     margin: 1em 0.5em;
     
      }
@@ -188,8 +188,6 @@ transform: scale(0.9);
 .registers{
   margin-left:-4.5em;
   font-size: 3.5em;
-  
-  
   }
    main{
       margin-top: 8rem;

@@ -64,7 +64,7 @@ export default function ShopnextUserRegister(){
                     <dd className="text-danger">{formik.errors.Mobile}</dd>
                     <dd className="form-switch"><input className="form-check-input" type="checkbox" hidden {...formik.getFieldProps("Subscribed")}/></dd>
                     </dl>
-                    <Link className="ms-1 " to="/login">Sign In<span className="ms-1 bi bi-arrow-right-square-fill"></span></Link><br/>
+                    <Link className="ms-1 mt-1 " to="/login">Sign In<span className="ms-1 bi bi-arrow-right-square-fill"></span></Link><br/>
                     <button  className="btn btn-primary fw-bold fs-4 registerbutton"  disabled={(formik.isValid)?false:true}>Register</button>
                   </form>
                 
