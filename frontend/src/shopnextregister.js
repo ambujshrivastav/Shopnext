@@ -41,12 +41,12 @@ export default function ShopnextUserRegister(){
  
     return(
         <div>
-        <div className="text-dark registers mt-5" style={{fontSize:"1.7rem"}}>
-            <div style={{height:"100%",width:"100%" }}>
-            <div className="bi bi-person-fill fw-bolder">User Registration</div>
+        <div className="text-dark registers mt-5" >
+            <div>
+            <div className="bi bi-person-fill signup">Sign Up</div>
             <div className="container-fluid">
             <form onSubmit={formik.handleSubmit}  >
-               <dl >
+               <dl style={{margin:"0px"}} >
                     <dt>User id</dt>
                     <dd><input type="text" {...formik.getFieldProps("UserId")}></input></dd>
                     <dd className="text-danger" >{formik.errors.UserId}</dd>
@@ -64,10 +64,10 @@ export default function ShopnextUserRegister(){
                     <dd className="text-danger">{formik.errors.Mobile}</dd>
                     <dd className="form-switch"><input className="form-check-input" type="checkbox" hidden {...formik.getFieldProps("Subscribed")}/></dd>
                     </dl>
-                    <Link className="ms-1" to="/login">Alredy registered?&nbsp;sign in</Link>
+                    <Link className="ms-1 " to="/login">Sign In<span className="ms-1 bi bi-arrow-right-square"></span></Link>
                     <br/>
                     
-                  <button  className="btn btn-primary mt-2 mb-5 p-2 fw-bold fs-5" style={{width:"16em"}} disabled={(formik.isValid)?false:true} >Register</button>
+                  <button  className="btn btn-primary mt-2 mb-5 p-2 fw-bold fs-5" style={{width:"13.3em"}} disabled={(formik.isValid)?false:true} >Register</button>
                   </form>
                 
                     <br/>

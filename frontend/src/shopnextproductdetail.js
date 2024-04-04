@@ -43,7 +43,7 @@ export function Productdetail(){
         <div className="d-flex" ><span className="d-flex justify-content-center ms-5 fw-bolder w-75">PRODUCT  DETAILS</span><button className="btn btn-secondary bi bi-x-lg" onClick={handleback}></button></div>
         {
                        product.map(item=>
-                      <div key={item.title} className="">
+                      <div key={item.title} >
                         <dl>
                         <dt>Preview</dt>
                         <dd className="d-flex justify-content-center"><img  src={item.image} style={{width:"20vw",height:"20vh"}}/></dd>
