@@ -46,7 +46,7 @@ export default function ShopnextUserRegister(){
             <div className="bi bi-person-fill signup">Sign Up</div>
             <div className="container-fluid">
             <form onSubmit={formik.handleSubmit}  >
-               <dl >
+               <dl style={{margin:"0px"}} >
                     <dt>User id</dt>
                     <dd><input type="text" {...formik.getFieldProps("UserId")}></input></dd>
                     <dd className="text-danger" >{formik.errors.UserId}</dd>
