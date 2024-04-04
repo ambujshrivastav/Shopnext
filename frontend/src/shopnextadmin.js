@@ -51,7 +51,7 @@ export default function ShopnextAdmin(){
                         <td className="ps-5">{(item.Subscribed==true)?"Yes":"No"}</td>
                         <td><button onClick={()=>updateuser(item.UserId)} className="btn btn-primary">Subscribe</button>|
                         <button onClick={()=>updateusers(item.UserId)} className="btn btn-primary ">Unsubscribe</button></td>
-                        <td><button onClick={()=>deleteuser(item.UserId)} className="btn btn-primary w-75">Delete</button></td>
+                        <td><button onClick={()=>deleteuser(item.UserId)} className="btn btn-primary w-75 bi bi-trash-fill"></button></td>
                         </tr>
                         </tbody> )
                 }
