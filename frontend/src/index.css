@@ -103,7 +103,10 @@ transform: scale(0.9);
        .about{ width:80%;
         font-size:1.5rem}
 
-      
+        .registerbutton{
+          width:  18vw;
+          margin: 0.5em 0;
+          }
 
 @media  (max-width: 1200px) {
   html{
@@ -169,8 +172,23 @@ transform: scale(0.9);
 }
 /*mobile*/
 @media screen and (max-width: 431px) {
-html{font-size: 55%;}
+  html{
+    font-size:55%;
+  }
 
+
+  .registerbutton{
+    width:  63vw;
+    height: 4em;
+    
+     }
+
+.registers{
+  margin-left: -3.5em;
+  font-size: 3.6em;
+  
+  
+  }
    main{
       margin-top: 8rem;
     }
@@ -241,6 +259,8 @@ html{font-size: 55%;}
           font-size: 1.9em;
           
         }
+
+        
       
       }
       
@@ -293,6 +313,11 @@ html{font-size: 55%;}
           height:max-content;
           margin-top:15vh;
          }
+
+         .registerbutton{
+          
+          margin-bottom: 2em;
+          }
       }
 
 
@@ -401,7 +426,7 @@ font-size: 1em;
 
 .signup{
   
-  background-color:transparent;
+  
   font-size: 1.2em;
   font-weight: 700;
   margin-left: 0.3em;
@@ -413,12 +438,11 @@ font-size: 1em;
   font-size: 1.4rem;
 } 
 .registers{
-  
   padding: 1vh 38vw;
   height: 85vh;
-  font-size: 1.4rem;
   
-}
+  color: black;
+  }
 #login{
 background-color: black;
 width: 30rem;
