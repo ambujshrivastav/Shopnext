@@ -232,7 +232,7 @@ transform: scale(0.9);
         margin-left: auto;
         padding: 0.2em;
       }  
-      .productheader{margin-top: 2vmax;} 
+      
       .navcheck{
         display:initial;
         z-index: 1;
@@ -467,6 +467,7 @@ border-radius: 1%;
 .productheader
   {width:100%;
    z-index: 1;
+   position: fixed;
    margin-top: -0.6vmax; 
   }
 .backarrow{

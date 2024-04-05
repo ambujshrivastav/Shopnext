@@ -25,7 +25,7 @@ export function Shopnextproducts(props){
     
     return(
         <div>
-           <div className="d-flex position-fixed bg-dark text-white productheader" > <h2 className="m-auto text-primary">{productcategory.toUpperCase()}</h2>
+           <div className="d-flex bg-dark text-white productheader" > <h2 className="m-auto text-primary">{productcategory.toUpperCase()}</h2>
            <div className="d-flex me-2  justify-content-between">
            <span className="mt-2 me-2"><Cart/></span>
              <Link to="/dashboard" className="btn btn-primary bi bi-arrow-left rounded text-center fs-5 fw-bolder mt-3 me-2 backarrow" >Back</Link></div>
