@@ -239,26 +239,30 @@ transform: scale(0.9);
         margin-top: -30px;
         margin-left: 120px;
         width: 30px;
+        
       }
 
       .navlist{
-        flex-direction: column;
         display: none;
-      }
+        }
 
       .navlist.isopen{
         display: block;
-      }
+        flex-direction: column;
+        }
 
         
         .navstart{
           margin-left: 1em;
           padding-top: 5em;
+          
         }
         #admin{
           font-size: 1.9em;
           
         }
+      
+        
 
         
       

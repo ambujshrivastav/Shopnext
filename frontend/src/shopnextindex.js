@@ -28,16 +28,16 @@ export default function Shopnextindex(){
               
                     <div className={`navlist ${open?"isopen":""}`} >
                     <div>
-                    <Link to="/home"  className="firstnav btn btn-dark text-white  fs-3 w-100">Home</Link>
+                    <Link to="/home" onClick={toggle} className="firstnav btn btn-dark text-white  fs-3 w-100">Home</Link>
                     </div>
                     <div>
-                    <Link to="/register" className="firstnav btn btn-dark text-white  fs-3 w-100">Register</Link>
+                    <Link to="/register" onClick={toggle} className="firstnav btn btn-dark text-white  fs-3 w-100">Register</Link>
                     </div>
                     <div>
-                    <Link to="/login" className="firstnav btn btn-dark text-white  fs-3 w-100" >Login</Link>
+                    <Link to="/login" onClick={toggle} className="firstnav btn btn-dark text-white  fs-3 w-100" >Login</Link>
                     </div>
                     <div>
-                    <Link to="/dashboard" className="firstnav btn btn-dark text-white fs-3 w-100">Dashboard</Link>
+                    <Link to="/dashboard" onClick={toggle} className="firstnav btn btn-dark text-white fs-3 w-100">Dashboard</Link>
                     </div>
                     </div>
                           
