@@ -7,7 +7,7 @@ import Cart from "./shopnextcart";
 
 
 
-export function Shopnextproducts(props){
+export function Shopnextproducts(){
     let param=useParams();
     const[productcategory,setproductcategory]=useState('');
     const[product,setproduct]=useState([]);
