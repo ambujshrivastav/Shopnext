@@ -1,9 +1,19 @@
 import { configureStore } from "@reduxjs/toolkit";
-
 import cartSlice from"./shopnextslicer";
 
-export default configureStore({
+import { persistStore, persistReducer } from 'redux-persist'
+import storage from 'redux-persist/lib/storage';
+
+const persistConfig = {
+    key: 'persist-store',
+    storage,
+    };
+    const persistedReducer = persistReducer(persistConfig, cartSlice);
+    
+var stor= configureStore({
     reducer: {
-        store :cartSlice            
+        store :persistedReducer            
     }                              
 });
+export default stor;
+export const persistor = persistStore(stor);

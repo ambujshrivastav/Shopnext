@@ -6,7 +6,8 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import { CookiesProvider } from 'react-cookie';
 import Shopnextindex from './shopnextindex';
 import { Provider } from 'react-redux';
-import store from './shopnextstore';
+import store,{persistor} from './shopnextstore';
+import { PersistGate } from 'redux-persist/integration/react';
 
 
 
@@ -16,7 +17,9 @@ root.render(
   <React.StrictMode> 
     <CookiesProvider>
     <Provider store={store}> 
+    <PersistGate persistor={persistor}>
      <Shopnextindex/>
+     </PersistGate>
      </Provider>
      </CookiesProvider>
   </React.StrictMode>
