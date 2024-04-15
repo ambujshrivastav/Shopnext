@@ -8,7 +8,7 @@ import { CookiesProvider } from 'react-cookie';
 import Shopnextindex from './shopnextindex';
 import { Provider } from 'react-redux';
 import store,{persistor} from './shopnextstore';
-import { PersistGate } from 'redux-persist/es/integration/react';
+import { PersistGate } from 'redux-persist/integration/react';
 
 
 
