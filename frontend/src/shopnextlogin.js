@@ -33,7 +33,7 @@ export default function ShopnextUserlogin(){
         onSubmit:values=>{
             for(var users of user){
                 if(users.UserId==values.UserId && users.Password==values.Password){
-                    setcookie("userid",users.UserId,{expires:new Date("2024-12-30 20:30")});
+                    setcookie("userid",users.UserId,{expires:new Date("2025-12-30 20:30")});
                  navigate("/dashboard");
                    break;
                 }
