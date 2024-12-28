@@ -9,7 +9,7 @@ import About from "./shopnextfooter";
 import { Contact,Services,Termofuse} from "./shopnextfooter";
 import ShopnextAdmin from "./shopnextadmin";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from "react";
+import { useState } from "react"; 
 
 
 
@@ -81,7 +81,7 @@ export default function Shopnextindex(){
         <a href="https://www.twitter.com" target="blank" className="text-white  "><div className="bi bi-twitter"></div></a>
         <a href="https://www.instagram.com" target="blank" className="text-white  "><div className="bi bi-instagram"></div></a>
         <a href="https://www.youtube.com" target="blank" className="text-white "><div className="bi bi-youtube"></div></a>
-        
+          
         </div>
         </div>
         <footer id="footer" className="bg-dark" style={{fontSize:"1.5vmax"}}>
@@ -96,7 +96,7 @@ export default function Shopnextindex(){
             
         </div>
         <div className="d-flex justify-content-around">
-         <span id="copyright">Copyright &copy;2024|All Rights Reserved</span>
+         <span id="copyright">Copyright &copy;2025|All Rights Reserved</span>
          
         </div>
         </footer>
